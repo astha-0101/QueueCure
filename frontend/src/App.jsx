@@ -297,7 +297,7 @@ function ReceptionistView() {
           <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", flexWrap:"wrap", gap:12 }}>
             <div>
               <p style={{ margin:0, fontSize:12, opacity:0.75 }}>City Clinic · General OPD</p>
-              <h1 style={{ margin:"4px 0 6px", fontSize:24, fontWeight:700 }}>{greeting}, Sunita</h1>
+              <h1 style={{ margin:"4px 0 6px", fontSize:24, fontWeight:700 }}>{greeting}, Astha</h1>
               <div style={{ display:"flex", alignItems:"center", gap:8 }}>
                 <LiveDot color="#4ADE80" />
                 <span style={{ fontSize:13, opacity:0.85 }}>{paused ? "Queue paused" : "Queue running smoothly"}</span>

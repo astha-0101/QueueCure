@@ -38,15 +38,15 @@ registerSocketHandlers(io);
 mongoose
   .connect(process.env.MONGODB_URI)
   .then(() => {
-    console.log("✅ MongoDB connected");
+    console.log(" MongoDB connected");
   })
   .catch((err) => {
     console.error("MongoDB error:", err.message);
-    console.log("⚠️ Starting without MongoDB");
+    console.log(" Starting without MongoDB");
   });
 
 server.listen(process.env.PORT || 5000, () => {
-  console.log(`🚀 Server on port ${process.env.PORT || 5000}`);
+  console.log(` Server on port ${process.env.PORT || 5000}`);
 });
   
 
