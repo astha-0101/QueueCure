@@ -23,7 +23,7 @@ function registerSocketHandlers(io) {
 
     // On disconnect, nothing needs cleanup (stateless socket)
     socket.on("disconnect", () => {
-      console.log(`❌ Client disconnected: ${socket.id}`);
+      console.log(` Client disconnected: ${socket.id}`);
     });
   });
 }
