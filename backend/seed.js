@@ -32,7 +32,7 @@ async function seed() {
 
   await Doctor.findByIdAndUpdate(d1._id, { currentQueueDepth: 5 });
 
-  console.log("✅ Seeded: 2 doctors, 6 patients");
+  console.log(" Seeded: 2 doctors, 6 patients");
   await mongoose.disconnect();
 }
 
