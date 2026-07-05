@@ -1,6 +1,5 @@
 const Doctor = require("../models/Doctor");
 const { getQueueSnapshot } = require("../services/queueService");
-
 /**
  * Register all socket event handlers.
  * On connect: send full queue snapshot so browser-refresh clients catch up.
